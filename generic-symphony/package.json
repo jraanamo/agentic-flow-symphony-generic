@@ -1,0 +1,21 @@
+{
+  "name": "generic-symphony",
+  "version": "0.1.0",
+  "description": "Agent-agnostic coding orchestration service for Linear",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "js-yaml": "^4.1.0",
+    "liquidjs": "^10.10.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.12.0",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.0"
+  }
+}
